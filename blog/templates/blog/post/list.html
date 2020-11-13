@@ -34,7 +34,7 @@
                 {% comment %} {{ post.body|truncatewords:30|linebreaks }}{% endcomment %}
                 {{ post.body|markdown|truncatewords_html:30}}                
             </p>
-            <!--<a href="{{ post.get_absolute_url }}" class="btn btn-primary">Read More &rarr;</a> -->
+            <a href="{{ post.get_absolute_url }}" class="btn btn-primary">Read More &rarr;</a>
         </div>
         <div class="card-footer text-muted">
             <p class="date">
